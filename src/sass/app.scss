@@ -1,0 +1,8 @@
+// Import de fonts + vaiables + icones
+@import"./_fonts.scss";
+@import"./_variables.scss";
+@import"./_icones.scss";
+
+
+// Import styl.scss :style TJRS en dernier
+@import"./module/style";

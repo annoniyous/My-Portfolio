@@ -1,0 +1,61 @@
+
+// début de section 2
+.se2{
+    font-family: Roboto;
+    background-color: rgb(233, 230, 230);
+    .div1{
+        .titre{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            line-height: 30px;
+            h2{
+                color: $grisclaire;
+            }
+        }
+    }
+    .div2{
+        display: flex;
+        justify-content: space-evenly;
+        font-family: Roboto;
+        padding: 5% 10%;
+        background-color: rgb(233, 230, 230);
+        text-align: center;
+        text-transform: uppercase;
+        .part{
+            display: flex;
+            flex-direction: column;
+            .arb{
+                background-color: white;
+            }
+        }
+    }
+    .row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 60px;
+            .butt{
+                background-color:$couleurboutton;
+                border: none;
+                color: white;
+                border-radius: 5px;
+                padding: 10px 50px;
+                margin-top: 50px;
+                font-weight: bolder;
+                margin-right: 15px;
+            }
+            .butt1{
+                background-color:black;
+                border: none;
+                color: white;
+                border-radius: 2px;
+                padding: 10px 50px;
+                margin-top: 50px;
+                font-weight: bolder;
+            }    
+    }
+    
+}    

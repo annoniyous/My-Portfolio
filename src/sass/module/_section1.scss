@@ -1,0 +1,42 @@
+// debut de section1
+.sec1{
+    display: flex;
+    font-family: Roboto;
+    padding: 5% 10%;
+    background-color: #144149;
+    color: #29afc7;
+
+    
+        .diva{
+            flex:1;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 5% 10%;
+            line-height: 30px;
+                h2{
+                    font-size: 50px;
+                }
+                p{
+                    color:$grisclaire;
+                    font-weight: bolder;
+                }
+               
+
+        }
+        .divb{
+            flex:1;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 5% 10%;
+            line-height: 30px;
+                p{
+                color:$grisclaire;
+                font-weight: bolder;
+                margin-bottom: 20px;
+                }
+           
+        }
+}
+// fin de section1

@@ -1,25 +1,25 @@
 {
-  "name": "site_du_chef",
+  "name": "portfolio",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "animejs": "^3.2.1",
+    "typescript": "^4.1.3"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/annoniyous/site_du_chef.git"
+    "url": "git+https://github.com/annoniyous/My-Portfolio.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/annoniyous/site_du_chef/issues"
+    "url": "https://github.com/annoniyous/My-Portfolio/issues"
   },
-  "homepage": "https://github.com/annoniyous/site_du_chef#readme",
-  "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.15.1",
-    "bootstrap": "^4.5.3",
-    "jquery": "^3.5.1"
-  }
+  "homepage": "https://github.com/annoniyous/My-Portfolio#readme",
+  "description": ""
 }

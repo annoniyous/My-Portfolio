@@ -1,0 +1,112 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+
+    
+       header{
+           background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../../public/images/banner.jpg");
+           background-attachment: fixed;
+           background-size: cover;
+           background-repeat: no-repeat;
+           height:1000px;
+           width: 100%;
+           font-family: Roboto;
+            .nav{
+                display: flex;
+                padding: 1% 2%;
+                position: fixed;
+                background: transparent;
+                transition: all 0.3s ease-out;
+                width: 100%;
+            }
+
+            .anim-nav{
+                background: black;
+                color: white;
+                border-bottom: solid 1px white;
+                transition: 1s;
+            }
+                .nav-left{
+                    display: flex;
+                    flex:1;
+                }
+                    .lightgrey{
+                        color:#29afc7 ;
+                        font-size: smaller;
+                    }
+                    h2{
+                        color: white;
+                    }
+                .nav-right{
+                    display: flex;
+                    flex:1;
+                    justify-content: center;
+                    align-items: center;
+                }
+                    a{
+                        text-decoration: none;
+                        color: $grisclaire;
+                        margin-left: 30px;
+                        font-size: larger;
+                    }
+                    a:hover{
+                        color: white;
+                    }
+            .texthead{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 80%;
+                margin-top: 30px;
+                width: 30%;
+                margin: auto;
+
+            }
+                h1{
+                   color: white;
+                   font-size: 40px;
+                }
+                p{
+                    line-height: 0%;
+                    color: rgb(212, 212, 212);
+                    font-size: 22px;
+                }
+                .buttonhead{
+                    background-color:$couleurboutton;
+                    border: none;
+                    color: white;
+                    border-radius: 5px;
+                    padding: 10px 20px;
+                    margin-top: 50px;
+                    font-weight: bolder;
+                }
+       } 
+}
+
+// Annimation au click sur mon header
+.clickAnim {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: linear-gradient(to top, #4ee4ff, #9223f9); 
+    position: absolute;
+    transform: scale(0);
+    transform-origin: center;
+    animation: clickAnim 1s ease-in-out;
+}
+
+@keyframes clickAnim {
+    0% {
+        transform: scale(0);
+    }
+    50% {
+        transform: scale(2);
+        opacity: 1;
+    }
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+}
